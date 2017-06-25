@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
                 String name = nameText.getText().toString();
                 Intent intent = new Intent(getApplicationContext(), SubActivity1.class);
                 intent.putExtra("nameText", name);
-                startActivity(intent); //jjjjj
+                startActivity(intent); //jjjjjkkk
             }
         });
     }
