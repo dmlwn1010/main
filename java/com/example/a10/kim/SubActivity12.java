@@ -19,6 +19,7 @@ public class SubActivity12 extends AppCompatActivity {
     }
 
     public void onClick6(View v){
-
+        Intent intent = new Intent(getApplicationContext(), SubActivity7.class);
+        startActivity(intent);
     }
 }
