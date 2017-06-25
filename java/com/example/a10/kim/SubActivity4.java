@@ -13,7 +13,7 @@ public class SubActivity4 extends AppCompatActivity {
         setContentView(R.layout.activity_sub4);
     }
 
-    public void ocClick4(View v){
+    public void onClick4(View v){
         Intent intent_01 = new Intent(getApplicationContext(), SubActivity5.class);
         startActivity(intent_01);
     }

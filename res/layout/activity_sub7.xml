@@ -8,9 +8,9 @@
 
     <TextView
         android:id="@+id/playText1"
-        android:layout_width="158dp"
-        android:layout_height="115dp"
-        android:text="굴러온 복 차는 멍청이 GAME OVER"
+        android:layout_width="224dp"
+        android:layout_height="72dp"
+        android:text="분발하시오 GAME OVER"
         android:textSize="24sp"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
@@ -28,10 +28,10 @@
         android:text="홈으로"
         android:onClick="onClick8"
         tools:layout_constraintTop_creator="1"
-        android:layout_marginStart="23dp"
-        android:layout_marginTop="47dp"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="66dp"
         app:layout_constraintTop_toBottomOf="@+id/playText1"
         tools:layout_constraintLeft_creator="1"
-        app:layout_constraintLeft_toLeftOf="@+id/playText1"
-        android:layout_marginLeft="23dp" />
+        app:layout_constraintLeft_toLeftOf="parent" />
 </android.support.constraint.ConstraintLayout>
