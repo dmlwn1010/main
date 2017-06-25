@@ -16,10 +16,19 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SubActivity1">
-
-        </activity>
-
+        <activity android:name=".SubActivity1" />
+        <activity android:name=".Sub2Activity" />
+        <activity android:name=".SubActivity3" />
+        <activity android:name=".SubActivity4" />
+        <activity android:name=".SubActivity5" />
+        <activity android:name=".SubActivity6" />
+        <activity android:name=".SubActivity7" />
+        <activity android:name=".SubActivity8" />
+        <activity android:name=".SubActivity9" />
+        <activity android:name=".SubActivity10" />
+        <activity android:name=".SubActivity11" />
+        <activity android:name=".SubActivity12" />
+        <activity android:name=".SubActivity13"></activity>
     </application>
 
 </manifest>
