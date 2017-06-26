@@ -2,30 +2,21 @@
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/sul"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.example.a10.kim.SubActivity23">
 
     <Button
         android:id="@+id/button13"
-        android:layout_width="0dp"
-        android:layout_height="53dp"
-        android:layout_marginBottom="71dp"
+        android:layout_width="380dp"
+        android:layout_height="51dp"
         android:layout_marginEnd="2dp"
-        android:layout_marginLeft="2dp"
-        android:layout_marginRight="2dp"
         android:layout_marginStart="2dp"
-        android:layout_marginTop="69dp"
         android:text="1. 이미 먹었지만 같이 먹자고 한다."
         android:onClick="onClick24"
-        app:layout_constraintBottom_toBottomOf="@+id/button14"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView9"
-        tools:layout_constraintBottom_creator="1"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintTop_creator="1" />
+        tools:layout_editor_absoluteY="362dp"
+        tools:layout_editor_absoluteX="2dp" />
 
     <Button
         android:id="@+id/button14"
@@ -51,11 +42,7 @@
         android:layout_height="43dp"
         android:text="그러나 나는 이미 밥을 먹고 왔다."
         android:textSize="18sp"
-        tools:layout_constraintBottom_creator="1"
         android:layout_marginStart="16dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="175dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="16dp" />
+        tools:layout_editor_absoluteY="16dp"
+        tools:layout_editor_absoluteX="26dp" />
 </android.support.constraint.ConstraintLayout>
