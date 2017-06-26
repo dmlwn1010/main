@@ -5,21 +5,21 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
-public class SubActivity13 extends AppCompatActivity {
+public class SubActivity16 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_sub13);
+        setContentView(R.layout.activity_sub16);
     }
 
-    public void onClick6(View v){
-        Intent intent = new Intent(getApplicationContext(), SubActivity7.class);
+    public void onClick17(View v){
+        Intent intent = new Intent(getApplicationContext(), SubActivity17.class);
         startActivity(intent);
     }
 
-    public void onClick14(View v){
-        Intent intent = new Intent(getApplicationContext(), SubActivity14.class);
+    public void onClick18(View v){
+        Intent intent = new Intent(getApplicationContext(), SubActivity18.class);
         startActivity(intent);
     }
 }

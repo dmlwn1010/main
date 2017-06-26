@@ -29,7 +29,25 @@
         <activity android:name=".SubActivity11" />
         <activity android:name=".SubActivity12" />
         <activity android:name=".SubActivity13" />
-        <activity android:name=".SubActivity14"></activity>
+        <activity android:name=".SubActivity14" />
+        <activity android:name=".SubActivity15" />
+        <activity android:name=".SubActivity16" />
+        <activity android:name=".SubActivity17" />
+        <activity android:name=".SubActivity18" />
+        <activity android:name=".SubActivity19" />
+        <activity android:name=".SubActivity20" />
+        <activity android:name=".SubActivity21" />
+        <activity android:name=".SubActivity22" />
+        <activity android:name=".SubActivity23" />
+        <activity android:name=".SubActivity24" />
+        <activity android:name=".SubActivity25" />
+        <activity android:name=".SubActivity26" />
+        <activity android:name=".SUbActivity27" />
+        <activity android:name=".SubActivity28" />
+        <activity android:name=".SubActivity29" />
+        <activity android:name=".SubActivity30" />
+        <activity android:name=".SubActivity31" />
+        <activity android:name=".SubActivity32"></activity>
     </application>
 
 </manifest>

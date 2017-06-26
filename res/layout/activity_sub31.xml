@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.a10.kim.SubActivity31">
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="380dp"
+        android:layout_height="49dp"
+        android:text="1. 사귄다."
+        android:onClick="onClick32"
+        tools:layout_editor_absoluteX="2dp"
+        tools:layout_editor_absoluteY="350dp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="123dp"
+        android:layout_height="39dp"
+        android:text="원부: 사귀자."
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="131dp"
+        tools:layout_editor_absoluteY="298dp" />
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="381dp"
+        android:layout_height="51dp"
+        android:text="2. 거절한다."
+        android:onClick="onClick6"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="434dp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="70dp"
+        android:layout_height="34dp"
+        android:text="그 날 오후."
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="88dp" />
+</android.support.constraint.ConstraintLayout>
